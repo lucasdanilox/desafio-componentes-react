@@ -1,0 +1,43 @@
+.ct-comments h3 {
+    display: flex;
+    padding: 20px;
+}
+
+.ct-comments p {
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 12px;
+    text-align: center;
+    background-color: var(--ct-color-font-primary);
+    border: 1px solid var(--ct-color-border-primary);
+    color: var(--ct-color-font-tertiary);
+
+}
+
+.ct-card-comments {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--ct-color-font-secondary);
+}
+
+.ct-bg-section-comments {
+    background-color: var(--ct-color-bg-tertiary);
+    padding: 20px;
+}
+
+.ct-comments-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+@media (min-width: 1200px) {
+
+    .ct-card-comments {
+        font-size: 32px;
+    }
+}
+
+
