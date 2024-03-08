@@ -3,9 +3,10 @@ header {
     background-color: #3C9AF0;
     display: flex;
     align-items: center;
+    margin-bottom: 20px ;
 }
 
-.ct-container h1 {
+.ct-header-container h1 {
     color: var(--ct-color-font-primary);
     font-size: 20px;
     text-align: center;
@@ -13,7 +14,7 @@ header {
 
 @media (min-width: 1200px) {
 
-    .ct-container h1{
+    .ct-header-container h1{
         font-size: 24px;
     }
 }

@@ -5,6 +5,9 @@
     --ct-color-bg-secondary: #FFFFFF;
 
     --ct-color-font-primary: #FFFFFF;
+    --ct-color-font-secondary: #5E5E5E;
+
+    --ct-color-border-primary: #3C9AF0;;
 
 }
 
@@ -20,7 +23,7 @@ body {
     background-color: var(--ct-color-bg-secondary);
 }
 
-.ct-container {
+.ct-header-container {
     width: 100%;
     max-width: 746px;
     margin: 0 auto;

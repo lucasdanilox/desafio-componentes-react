@@ -1,8 +1,8 @@
-import Header from "./Components/Header";
+import Catalog from "./routes/Catalog";
 
 export default function App() {
 
     return(
-        <Header/>
+        <Catalog/>
     );
 }

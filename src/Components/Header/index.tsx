@@ -4,7 +4,7 @@ export default function Header() {
 
     return (
         <header>
-            <div className="ct-container">
+            <div className="ct-header-container">
                 <h1>DSCarrosTop</h1>
             </div>
         </header>
