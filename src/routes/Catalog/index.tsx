@@ -1,5 +1,6 @@
 import Card from "../../Components/Card";
 import CardComments from "../../Components/CardComments";
+import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
 import './styles.css';
 
@@ -17,7 +18,7 @@ export default function Catalog() {
                     </div>
                     <section id="#ct-card-comment">
                         <div className="ct-bg-section-comments">
-                        <h3 className="ct-card-comments">O que estão dizendo</h3>
+                            <h3 className="ct-card-comments">O que estão dizendo</h3>
                             <CardComments />
                             <CardComments />
                             <CardComments />
@@ -25,10 +26,11 @@ export default function Catalog() {
                             <CardComments />
                         </div>
                     </section>
-
                 </section>
             </main>
-
+            <div>
+                <Footer />
+            </div>
         </>
 
     );

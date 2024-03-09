@@ -3,9 +3,15 @@ header {
     background-color: #3C9AF0;
     display: flex;
     align-items: center;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
     width: 100%;
 }
+
+.ct-header-container {
+    max-width: 746px;
+    margin: 0 auto;
+}
+
 
 .ct-header-container h1 {
     color: var(--ct-color-font-primary);
@@ -15,7 +21,7 @@ header {
 
 @media (min-width: 1200px) {
 
-    .ct-header-container h1{
+    .ct-header-container h1 {
         font-size: 24px;
     }
 }

@@ -1,0 +1,20 @@
+.ct-footer-container {
+    text-align: center;
+    height: 120px;
+    padding-top: 35px;
+    background-color: var(--ct-color-bg-primary);
+}
+
+.ct-footer {
+    color: var(--ct-color-font-primary);
+}
+
+@media (min-width: 1200px) {
+    .ct-footer {
+        max-width: 960px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        color: var(--ct-color-font-primary);
+    }
+}
